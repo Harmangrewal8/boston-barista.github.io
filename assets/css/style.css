@@ -8,22 +8,22 @@ body, html {
     scroll-behavior: smooth;
 }
 
-::-moz-selection { /* Code for Firefox */
+::-moz-selection {
+    /* Code for Firefox */
     color: #f2f1e7;
     background: #5c4d4d;
-  }
-  
-  ::selection {
+}
+
+::selection {
     color: #f2f1e7;
     background: #5c4d4d;
-  }
+}
 
 #topnav {
     width: 100%;
     position: fixed;
     z-index: 1;
     opacity: 0.99;
-    
 }
 
 .mynav {
@@ -47,12 +47,10 @@ body, html {
     transition: background-color 1.5s ease-out;
 }
 
-
 .link-div {
     padding: 5px;
     margin: 5px;
     padding-top: 8px;
-
 }
 
 .nav-link {
@@ -64,16 +62,16 @@ body, html {
     margin: 0;
 }
 
-.link-trans:hover{
+.link-trans:hover {
     color: #f2f1e7;
-border-bottom: solid #f2f1e7 1px;
-border-radius: 75%;
+    border-bottom: solid #f2f1e7 1px;
+    border-radius: 75%;
 }
 
-.link-solid:hover{
+.link-solid:hover {
     color: #a96851;
-border-bottom: solid #a96851 1px;
-border-radius: 75%;
+    border-bottom: solid #a96851 1px;
+    border-radius: 75%;
 }
 
 .navbar-text {
@@ -89,6 +87,7 @@ border-radius: 75%;
     -o-transition: color 1.5 ease-out;
     transition: color 1.5s ease-out;
 }
+
 .navbar-text-solid {
     font: 200 47px 'Arizonia', Helvetica, sans-serif;
     text-shadow: 4px 4px 0px rgba(#5c4d4d, 0.1);
@@ -100,7 +99,6 @@ border-radius: 75%;
     -moz-transition: color 1.5 ease-out;
     -o-transition: color 1.5 ease-out;
     transition: color 1.5s ease-out;
- 
 }
 
 #logo {
@@ -113,18 +111,19 @@ border-radius: 75%;
 #slogon {
     position: absolute;
     top: 160px;
-    left: 35%;
-    right: 0%;
+    margin: 0;
+    left: 50%;
+    margin-left: -215px;
     color: #f2f1e7;
     opacity: 0.8;
     font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
     text-transform: capitalize;
     font-size: 40px;
     font-weight: 400;
-    margin: 0;
-    padding:0;
+    
+    padding: 0;
+    
 }
-
 
 #s1, #s2, #s3 {
     background-size: cover;
@@ -144,9 +143,9 @@ border-radius: 75%;
     background: rgba(#f2f1e7, 0.1);
 }
 
-#about, #mymenu{
-    margin-left: 10%;
-    margin-right: 10%;
+#about, #mymenu {
+    margin-left: 5%;
+    margin-right: 5%;
     text-align: center;
     position: relative;
     z-index: 0;
@@ -156,58 +155,38 @@ border-radius: 75%;
     min-height: 100%;
     background-image: url("../../images/cup2.jpg");
     position: relative;
-    
-    
 }
 
 #s2 {
-    margin-top: 50px;
-    padding: 15px;
-    min-height:100vh;
+    padding: 50px;
+    min-height: 100vh;
     position: relative;
     z-index: -1;
-  padding-bottom: 0;
     border-bottom: solid 6px #f2f1e7;
 }
 
 #s3 {
-    padding-top: 50px;
-    padding: 15px;
-    
     position: relative;
     z-index: -1;
-    padding-bottom: 0;
-
     border-bottom: solid 6px #f2f1e7;
 }
 
-#s4{
-    padding-top: 50px;
-    padding: 15px;
-   
+#s4 {
     position: relative;
-    padding-bottom: 0;
-
     z-index: -1;
 }
 
-#s5{
-    
-    padding: 15px;
+#s5 {
     min-height: 450px;
     position: relative;
     z-index: -1;
-    
     border-bottom: solid 6px #f2f1e7;
-
-   background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-image: url("../../images/s5.jpg");
     position: relative;
 }
-
-
 
 .headings {
     padding: 25px;
@@ -242,55 +221,34 @@ border-radius: 75%;
     float: right;
 }
 
-
-#mymenu{
-   
+#mymenu {
     text-align: left;
-    padding: 25px;
     border: solid #5c4d4d 1px;
-
-
-
+    padding: 20px 50px;
 }
 
-#contact{
-   
-    text-align: left;
-    padding: 80px;
-    position: relative;
-    top:-250px;
-    background-color: #fff;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-top: 5px;
-
-}
-
-#menu{
-    text-align: left;
-    margin-left: 5%;
-    margin-right: 5%;
-    position: relative;
-    top:-250px;
-    background-color: #fff;
-  
-    padding-top: 50px;
-}
-#mymenu h2, #contact h2{
-    font-size: 35px;
-    display: block;
-    font-weight: 400;
-    color: #a96851;
-    text-transform: capitalize;
-    border-bottom: solid #a96851 2px;
+h2{
     padding: 15px;
-    
-    
+}
 
+#contact {
+    text-align: left;
+    position: relative;
+    background-color: #fff;
+    padding: 50px;
+}
+article{
+    padding: 0 50px;
+}
+
+#menu {
+    text-align: left;
+    position: relative;
+    background-color: #fff;
 }
 
 
-#s3 h1, #s4 h1{
+#s3 h1, #s4 h1 {
     position: relative;
     text-align: left;
     font-size: 50px;
@@ -298,18 +256,35 @@ border-radius: 75%;
     color: #a96851;
     font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
     text-transform: capitalize;
-padding: 15px;
-margin-left: 7%;
-
-
-}
-#s4 h1{
-    left:-75px;
+    padding: 15px;
+    margin-left: 7%;
 }
 
-.mycontainer{
-padding-top: 55px;
-margin-left: 2.5%;
-margin-right: 2.5%;
+#s4 h1 {
+    left: -75px;
 }
 
+.mycontainer {
+    margin: 0% 5% 0% 5%;
+    top: -200px;
+    padding-top: 5%;
+}
+
+@media screen and (max-width: 768px){
+    .mynav{
+        display: none;
+    }
+
+    #logo{
+        top: 10px;
+        left:50%;
+        margin-left: -128px;
+
+    }
+    #slogon{
+        font-size: 25px;
+        z-index: 2000;
+        margin-left: -135px;
+    }
+    
+}
