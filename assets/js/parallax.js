@@ -8,6 +8,9 @@ function parallax(){
   
 
     $(".parallax").css("background-position", "center "+(vscroll*0.25)+"px")
-    $("#aboutText").css("top", -55+(vscroll*0.2)+"px")
+    if($(window).width()>= 600){
+        $(".aboutText").css("top", -52+(vscroll*0.3)+"px")
+    }
+    
    
 }

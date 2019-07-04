@@ -194,7 +194,7 @@ body, html {
     text-align: center;
 }
 
-#aboutText {
+.aboutText {
     background-color: transparent;
     font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
     text-transform: capitalize;
@@ -279,12 +279,78 @@ article{
         top: 10px;
         left:50%;
         margin-left: -128px;
+        position: relative;
 
     }
     #slogon{
         font-size: 25px;
         z-index: 2000;
         margin-left: -135px;
+    }
+
+    #aboutText {
+        position: relative;
+        background-color: transparent;
+        font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+        text-transform: capitalize;
+        top: 25px;
+        height: auto;
+        
+    }
+    
+    #aboutText h1 {
+        text-align: left;
+        font-size: 40px;
+        font-weight: 300;
+        color: #a96851;
+    }
+    
+    #aboutText p {
+        margin-left: 8%;
+        text-align: left;
+        font-size: 20px;
+        font-weight: 300;
+        color: #5c4d4d;
+        padding-bottom: 25px;
+    }
+
+    #s2{
+        padding: 25px;
+        
+        
+    }
+    
+    #s5{
+        min-height: 380px;
+    }
+    #mymenu{
+        padding: 20px 20px;
+
+    }
+
+    #s3 h1, #s4 h1 {
+        position: relative;
+        text-align: left;
+        font-size: 40px;
+        font-weight: 300;
+        color: #a96851;
+        font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+        text-transform: capitalize;
+        padding: 15px;
+        margin-left: 7%;
+    }
+
+    #s3 h2, #s4 h2 {
+        font-size: 30px;
+    }
+#s4{
+    max-height: 110vh;
+}
+    #s4 h1{
+        margin-left: 13%;
+    }
+    article{
+        padding: 0px;
     }
     
 }
