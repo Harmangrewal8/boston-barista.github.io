@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Meddon&display=swap');
+
 body, html {
     margin: 0;
     height: 100%;
@@ -75,7 +77,8 @@ body, html {
 }
 
 .navbar-text {
-    font: 200 47px 'Arizonia', Helvetica, sans-serif;
+
+    font: 200 24px 'Meddon', cursive;
     text-shadow: 4px 4px 0px rgba(#f2f1e7, 0.1);
     font-weight: 1200;
     color: #f2f1e7;
@@ -89,7 +92,7 @@ body, html {
 }
 
 .navbar-text-solid {
-    font: 200 47px 'Arizonia', Helvetica, sans-serif;
+    font: 200 20px 'Meddon', cursive;
     text-shadow: 4px 4px 0px rgba(#5c4d4d, 0.1);
     font-weight: 1300;
     color: #a96851;
@@ -106,6 +109,7 @@ body, html {
     top: 5px;
     right: 40px;
     z-index: 1;
+    font-family: 'Meddon', cursive;
 }
 
 #slogon {
@@ -276,10 +280,12 @@ article{
     }
 
     #logo{
+
         top: 10px;
         left:50%;
         margin-left: -128px;
         position: relative;
+        font-family: 'Meddon', cursive;
 
     }
     #slogon{
@@ -321,7 +327,7 @@ article{
     }
     
     #s5{
-        min-height: 380px;
+        min-height: 300px;
     }
     #mymenu{
         padding: 20px 20px;
@@ -353,4 +359,23 @@ article{
         padding: 0px;
     }
     
+}
+
+#footer{
+  
+
+    height: 70px;
+    text-align: center;
+
+}
+#footer h2{
+    position: relative;
+
+    font-size: 25px;
+    font-weight: 300;
+    color: #a96851;
+    font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+    text-transform: capitalize;
+    padding: 25px;
+
 }
